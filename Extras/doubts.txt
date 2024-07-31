@@ -1,0 +1,6 @@
+Pattern questions video: 5th and 6th
+Time complexity video: 9th
+10th video Advanced level recursion problem
+Recursion 19th video
+N Queen problem recursion
+Java Sukudo solver video    
