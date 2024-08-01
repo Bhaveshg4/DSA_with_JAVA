@@ -4,3 +4,4 @@ Time complexity video: 9th
 Recursion 19th video
 N Queen problem recursion
 Java Sukudo solver video    
+LinkedList Question for placements video number 29
