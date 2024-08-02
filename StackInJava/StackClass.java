@@ -15,7 +15,7 @@ public class StackClass {
         public static Node head;
         public static boolean isEmpty(){
             return head == null;        }
-        public static void push(int data){
+        public void push(int data){
             Node newNode = new Node(data);
             if (isEmpty()) {
                     head=newNode;
@@ -26,7 +26,7 @@ public class StackClass {
             newNode.next=head;
             head=newNode;    
         }
-        public static int pop(){
+        public int pop(){
             if (isEmpty()) {
                 return -1;
                 
@@ -51,8 +51,8 @@ public class StackClass {
         s.push(2);
         s.push(3);
         s.push(4);
-        while (!s.isEmpty()) {
-            System.out.println(s.peek());
+        while (!Stack.isEmpty()) {
+            System.out.println(Stack.peek());
             s.pop();
             
         }
