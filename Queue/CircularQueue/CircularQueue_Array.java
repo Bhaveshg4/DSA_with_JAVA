@@ -67,7 +67,7 @@ public class CircularQueue_Array {
             q.add(4);
             q.add(5);
             q.add(6);
-            System.out.println(q.remove());
+            System.out.println(Queue.remove());
             while (!Queue.isEmpty()) {
 
                 System.out.println(Queue.peek());
