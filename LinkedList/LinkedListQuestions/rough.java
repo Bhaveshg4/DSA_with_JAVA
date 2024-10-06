@@ -51,7 +51,7 @@ public class rough {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
 
-        Question1 q = new Question1();
+        rough q = new rough(); // Changed from 'Question1' to 'rough'
         head = q.removeNthFromEnd(head, 2);
 
         ListNode curr = head;

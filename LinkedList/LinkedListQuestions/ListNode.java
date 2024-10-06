@@ -1,7 +1,5 @@
 package LinkedList.LinkedListQuestions;
 
-import java.util.List;
-
 public class ListNode{
     int val;
     ListNode next;
@@ -9,7 +7,7 @@ public class ListNode{
     ListNode(int val){this.val = val;}
     ListNode(int val,ListNode next){this.val=val;this.next=next;}
 }
-public class ListNode {
+ class ListNodeclass {
     //find the nth node from the last and delete it
 
     public ListNode removeNthFromEnd(ListNode head,int n){
